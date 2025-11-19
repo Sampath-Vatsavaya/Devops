@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.4
+Build-Jdk-Spec: 21
+Specification-Title: Coverage Plugin
+Specification-Version: 0.0
+Implementation-Title: Coverage Plugin
+Implementation-Version: 2.3036.v90d485b_810c6
+Group-Id: io.jenkins.plugins
+Artifact-Id: coverage
+Short-Name: coverage
+Long-Name: Coverage Plugin
+Url: https://github.com/jenkinsci/coverage-plugin
+Plugin-Version: 2.3036.v90d485b_810c6
+Hudson-Version: 2.516.3
+Jenkins-Version: 2.516.3
+Plugin-Dependencies: bootstrap5-api:5.3.8-895.v4d0d8e47fea_d,checks-api:
+ 373.vfe7645102093,commons-lang3-api:3.19.0-104.v12125f33a_255,commons-t
+ ext-api:1.14.0-194.v804a_dc3a_1b_d8,data-tables-api:2.3.4-1451.vb_0b_52
+ 38f9054,echarts-api:6.0.0-1165.vd1283a_3e37d4,font-awesome-api:7.1.0-88
+ 2.v1dfb_771e3278,forensics-api:3.1772.v99ca_3d83b_9fa_,ionicons-api:94.
+ vcc3065403257,jquery3-api:3.7.1-619.vdb_10e002501a_,plugin-util-api:6.1
+ 192.v30fe6e2837ff,prism-api:1.30.0-630.va_e19d17f83b_0,workflow-api:138
+ 4.vdc05a_48f535f,workflow-multibranch:821.vc3b_4ea_780798,workflow-step
+ -api:710.v3e456cc85233,jackson2-api:2.20.1-423.v13951f6b_6532,jsoup:1.2
+ 1.2-66.v6ea_38164b_8a_2,token-macro:477.vd4f0dc3cb_cf1;resolution:=opti
+ onal
+Plugin-Developers: Ullrich Hafner:uhafner:ullrich.hafner@gmail.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/coverage-plug
+ in.git
+Plugin-ScmTag: 90d485b810c6a2860acecbb1d595c8d4f6e1bf97
+Plugin-ScmUrl: https://github.com/jenkinsci/coverage-plugin
+Implementation-Build: 90d485b810c6a2860acecbb1d595c8d4f6e1bf97
+

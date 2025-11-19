@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 21
+Specification-Title: Jenkins Maven Info Plugin
+Specification-Version: 0.3
+Implementation-Title: Jenkins Maven Info Plugin
+Implementation-Version: 0.3.2
+Plugin-Class: jenkins.plugins.maveninfo.MavenInfoPlugin
+Group-Id: org.tomfolga
+Artifact-Id: maven-info
+Short-Name: maven-info
+Long-Name: Jenkins Maven Info Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Maven+Info+Plugin
+Plugin-Version: 0.3.2
+Hudson-Version: 2.426.3
+Jenkins-Version: 2.426.3
+Plugin-Dependencies: maven-plugin:3.23,token-macro:400.v35420b_922dcb_
+Plugin-Developers: Tom Folga:tomfolga:tomfolga@gmail.com,Olivier Lamy:ol
+ amy:olamy@apache.org,Emlio Jose Mena Cebrian:emenaceb:emenaceb@gmail.co
+ m
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/maven-info-pl
+ ugin.git
+Plugin-ScmTag: maven-info-0.3.2
+Plugin-ScmUrl: https://github.com/jenkinsci/maven-info-plugin
+Plugin-GitHash: c3c6af3c101247c19496832d800d0d43baf9563a
+Implementation-Build: c3c6af3c101247c19496832d800d0d43baf9563a
+

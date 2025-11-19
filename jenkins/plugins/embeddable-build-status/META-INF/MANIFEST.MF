@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.4
+Build-Jdk-Spec: 17
+Specification-Title: Embeddable Build Status Plugin
+Specification-Version: 0.0
+Implementation-Title: Embeddable Build Status Plugin
+Implementation-Version: 627.v0249270b_488e
+Plugin-Class: org.jenkinsci.plugins.badge.PluginImpl
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: embeddable-build-status
+Short-Name: embeddable-build-status
+Long-Name: Embeddable Build Status Plugin
+Url: https://github.com/jenkinsci/embeddable-build-status-plugin
+Plugin-Version: 627.v0249270b_488e
+Hudson-Version: 2.504.3
+Jenkins-Version: 2.504.3
+Plugin-Dependencies: commons-text-api:1.14.0-194.v804a_dc3a_1b_d8,ionico
+ ns-api:94.vcc3065403257,workflow-step-api:710.v3e456cc85233,script-secu
+ rity:1378.vf25626395f49
+Plugin-Developers: 
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/embeddable-bu
+ ild-status-plugin
+Plugin-ScmTag: 0249270b488edcd8d86173a4b2d451815740ea29
+Plugin-ScmUrl: https://github.com/jenkinsci/embeddable-build-status-plug
+ in
+Implementation-Build: 0249270b488edcd8d86173a4b2d451815740ea29
+

@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Extensible Choice Parameter plugin
+Specification-Version: 0.0
+Implementation-Title: Extensible Choice Parameter plugin
+Implementation-Version: 239.v5f5c278708cf
+Group-Id: jp.ikedam.jenkins.plugins
+Artifact-Id: extensible-choice-parameter
+Short-Name: extensible-choice-parameter
+Long-Name: Extensible Choice Parameter plugin
+Url: https://github.com/jenkinsci/extensible-choice-parameter-plugin
+Compatible-Since-Version: 1.5.0
+Plugin-Version: 239.v5f5c278708cf
+Hudson-Version: 2.479.1
+Jenkins-Version: 2.479.1
+Plugin-Dependencies: script-security:1369.v9b_98a_4e95b_2d
+Plugin-Developers: IKEDA Yasuyuki:ikedam:
+Plugin-License-Name: The MIT license
+Plugin-License-Url: http://www.opensource.org/licenses/mit-license.php
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/extensible-ch
+ oice-parameter-plugin.git
+Plugin-ScmTag: 5f5c278708cf6b804d6fd01fc086a128b21ea701
+Plugin-ScmUrl: https://github.com/jenkinsci/extensible-choice-parameter-
+ plugin
+Implementation-Build: 5f5c278708cf6b804d6fd01fc086a128b21ea701
+

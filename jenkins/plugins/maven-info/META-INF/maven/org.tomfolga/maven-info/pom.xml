@@ -1,0 +1,98 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.jenkins-ci.plugins</groupId>
+		<artifactId>plugin</artifactId>
+		<version>4.85</version>
+	</parent>
+
+
+	<groupId>org.tomfolga</groupId>
+	<artifactId>maven-info</artifactId>
+	<name>Jenkins Maven Info Plugin</name>
+	<version>0.3.2</version>
+	<packaging>hpi</packaging>
+
+	<url>https://wiki.jenkins-ci.org/display/JENKINS/Maven+Info+Plugin</url>
+
+	<developers>
+		<developer>
+			<id>tomfolga</id>
+			<name>Tom Folga</name>
+			<email>tomfolga@gmail.com</email>
+		</developer>
+		<developer>
+			<id>olamy</id>
+			<name>Olivier Lamy</name>
+			<email>olamy@apache.org</email>
+		</developer>
+		<developer>
+			<id>emenaceb</id>
+			<name>Emlio Jose Mena Cebrian</name>
+			<email>emenaceb@gmail.com</email>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:https://github.com/jenkinsci/maven-info-plugin.git</connection>
+		<developerConnection>scm:git:https://github.com/jenkinsci/maven-info-plugin.git</developerConnection>
+		<url>https://github.com/jenkinsci/maven-info-plugin</url>
+	  <tag>maven-info-0.3.2</tag>
+  </scm>
+
+  <properties>
+    <jenkins.version>2.426.3</jenkins.version>
+    <!--TODO: change to true after the code cleanup-->
+    <spotbugs.failOnError>false</spotbugs.failOnError>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.jenkins.tools.bom</groupId>
+        <artifactId>bom-2.426.x</artifactId>
+        <version>3208.vb_21177d4b_cd9</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>javax.annotation</groupId>
+        <artifactId>javax.annotation-api</artifactId>
+        <version>1.3.2</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.jenkins-ci.main</groupId>
+			<artifactId>maven-plugin</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.jenkins-ci.plugins</groupId>
+			<artifactId>token-macro</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-digester3</artifactId>
+			<version>3.2</version>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>repo.jenkins-ci.org</id>
+			<url>https://repo.jenkins-ci.org/public/</url>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>repo.jenkins-ci.org</id>
+			<url>https://repo.jenkins-ci.org/public/</url>
+		</pluginRepository>
+	</pluginRepositories>
+</project>
+  
+
